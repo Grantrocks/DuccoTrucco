@@ -3,3 +3,17 @@
     width: 50%;
     padding: 10px;
   }
+@font-face {
+font-family: Roboto;
+src: url(/fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: RobotoSlab;
+    src: url(/fonts/RobotoSlab.ttf);
+}
+.title{
+    font-family: Roboto;
+}
+.cooltext{
+    font-family: RobotoSlab;
+}
