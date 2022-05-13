@@ -7,7 +7,6 @@ function getbalance(){
             alert(data)
             alert(data.result)
             document.getElementById("currbalance").innerHTML = `${data.message} ᕲ`;
-            document.getElementById('currbalance').innerHTML="Error Getting Faucet Balance";
         }
     };
     xhttp.open("GET", "filename", true);
