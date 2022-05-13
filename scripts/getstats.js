@@ -4,6 +4,7 @@ function getbalance(){
         if (this.readyState == 4 && this.status == 200) {
             data=xhttp.response
             alert(this.status)
+            alert(data)
             alert(data.result)
             if(data.result){
                 document.getElementById("currbalance").innerHTML = `${data.message} ᕲ`;
