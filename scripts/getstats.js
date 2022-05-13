@@ -3,6 +3,7 @@ function getbalance(){
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             data=xhttp.response
+            alert(this.status)
             if(data.result){
                 document.getElementById("currbalance").innerHTML = `${data.message} ᕲ`;
             }else{
