@@ -6,11 +6,8 @@ function getbalance(){
             alert(this.status)
             alert(data)
             alert(data.result)
-            if(data.result){
-                document.getElementById("currbalance").innerHTML = `${data.message} ᕲ`;
-            }else{
-                document.getElementById('currbalance').innerHTML="Error Getting Faucet Balance";
-            }
+            document.getElementById("currbalance").innerHTML = `${data.message} ᕲ`;
+            document.getElementById('currbalance').innerHTML="Error Getting Faucet Balance";
         }
     };
     xhttp.open("GET", "filename", true);
